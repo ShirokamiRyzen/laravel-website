@@ -14,11 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', [
+        "title" => "Index"
+    ]);
 });
 
 Route::get('/privacy', function () {
-    return view('eula');
+    return view('eula', [
+        "title" => "Privacy"
+    ]);
 });
 
 Route::get('/revanced', function () {
@@ -26,8 +30,7 @@ Route::get('/revanced', function () {
         "direct_link" => "https://cloud.ryzendesu.com/api/raw/?path=/YT_ReVanced/youtube-revanced_v18.23.35.apk",
         "mirror_1" => "https://github.com/ShirokamiRyzen/revanced-creator/releases/download/Youtube/youtube-revanced_v18.23.35.apk",
         "mirror_2" => "#"
-    ],
-    [
+    ],[
         "button_direct" => "Direct Link",
         "button_mirror1" => "Mirror Link 1",
         "button_mirror2" => "(Broken) Link 2",
@@ -41,8 +44,7 @@ Route::get('/ytmusic', function () {
         "direct_link" => "https://cloud.ryzendesu.com/api/raw/?path=/Music_ReVanced/youtube-music-revanced_v5.51.50.apk",
         "mirror_1" => "https://github.com/ShirokamiRyzen/revanced-creator/releases/download/YT_Music/youtube-music-revanced_v5.51.50.apk",
         "mirror_2" => "#"
-    ],
-    [
+    ],[
         "button_direct" => "Direct Link",
         "button_mirror1" => "Mirror Link 1",
         "button_mirror2" => "(Broken) Link 2",
@@ -56,8 +58,7 @@ Route::get('/spotify', function () {
         "direct_link" => "https://cloud.ryzendesu.com/api/raw/?path=/Spotify/Spotify%20v8.8.48.523%20(Merged).apk",
         "mirror_1" => "https://github.com/ShirokamiRyzen/revanced-creator/releases/download/Spotify/Spotify.v8.8.48.523.Merged.apk",
         "mirror_2" => "#"
-    ],
-    [
+    ],[
         "button_direct" => "Direct Link",
         "button_mirror1" => "Mirror Link 1",
         "button_mirror2" => "(Broken) Link 2",

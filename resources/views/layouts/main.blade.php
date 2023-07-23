@@ -14,7 +14,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>RYZEN</title>
+    <title>{{ $title }}</title>
     <meta name="keywords" content="ReVanced, Vanced, revanced, vanced, ytvanced, yt" />
     <meta name="description" content="Youtube ReVanced. continue the legacy of Vanced Mod" />
 </head>
