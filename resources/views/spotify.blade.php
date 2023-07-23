@@ -92,35 +92,35 @@
                 <tr>
                   <td>
                     <span id="spotify_direct">
-                      <a type="button" target="_blank" href="<?php echo $direct_link ?>"
+                      <a type="button" target="_blank" href="{{ $direct_link }}"
                         class="bg-blue-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center tombolkanan">
                         <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                           <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                        </svg><?php echo $button_direct ?></a>
+                        </svg>{{ $button_direct }}</a>
                     </span>
                   </td>
                   <br>
                   <br>
                   <td>
                     <span id="spotify_mirror1">
-                      <a type="button" target="_blank" href="<?php echo $mirror_1 ?>"
+                      <a type="button" target="_blank" href="{{ $mirror_1 }}"
                         class="bg-blue-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center tombolkanan">
                         <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                           <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                        </svg><?php echo $button_mirror1 ?></a>
+                        </svg>{{ $button_mirror1 }}</a>
                     </span>
                   </td>
                   <td>
                     <span id="spotify_mirror2">
-                      <a type="button" target="_blank" href="<?php echo $mirror_2 ?>"
+                      <a type="button" target="_blank" href="{{ $mirror_2 }}"
                         class="bg-blue-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center tombolkanan">
                         <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                           <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-                        </svg><?php echo $button_mirror2 ?></a>
+                        </svg>{{ $button_mirror2 }}</a>
                     </span>
                   </td>
                 </tr>
-            <p class="negro tengah">Version: 8.8.48.523</p>
+            <p class="negro tengah">{{ $version }}</p>
             <br>
             <p>
                 <br>
@@ -308,10 +308,10 @@
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                         <ul class="text-gray-600 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                <a href="./term/privacy.html" class="hover:underline">Privacy Policy</a>
+                                <a href="/privacy" class="hover:underline">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="./term/privacy.html" class="hover:underline">Terms &amp; Conditions</a>
+                                <a href="/privacy" class="hover:underline">Terms &amp; Conditions</a>
                             </li>
                         </ul>
                     </div>
