@@ -31,7 +31,7 @@
                     <button class="buttonmsc" onclick="toggleMusic()" id="btn-playback" data-play="false">
                         <i class="fa fa-play"></i>
                     </button>
-                    <audio id="audio" src="https://cloud.ryzendesu.com/api/name/Orange.mp3?path=/media/Orange.mp3">
+                    <audio id="audio" src="{{ $music_link }}">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">

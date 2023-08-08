@@ -15,7 +15,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index', [
-        "title" => "Index"
+        "title" => "Index",
+
+        //music link variable
+        "music_link" => "https://cloud.ryzendesu.com/api/name/Orange.mp3?path=/media/Orange.mp3"
     ]);
 });
 
@@ -29,7 +32,7 @@ Route::get('/revanced', function () {
     return view('revanced', [
         "direct_link" => "https://cloud.ryzendesu.com/api/raw/?path=/YT_ReVanced/youtube-revanced_v18.23.35.apk",
         "mirror_1" => "https://github.com/ShirokamiRyzen/revanced-creator/releases/download/Youtube/youtube-revanced_v18.23.35.apk",
-        "mirror_2" => "https://bayfiles.com/oaY6M43dze/youtube_revanced_v18_23_35_apk"
+        "mirror_2" => "https://bayfiles.com/oaY6M43dze/youtube_revanced_v18_23_35_apk",
     ],[
         "button_direct" => "Direct Link",
         "button_mirror1" => "Mirror Link 1",
