@@ -18,7 +18,13 @@ Route::get('/', function () {
         "title" => "Index",
 
         //music link variable
-        "music_link" => "https://cloud.ryzendesu.com/api/raw/?path=/Media/music/7!!-Orange_(Instrumental).mp3"
+        "music_link" => "https://cloud.ryzendesu.com/api/raw/?path=/Media/music/7!!-Orange_(Instrumental).mp3",
+
+        //info
+        "email" => "ryzen@ryzendesu.com",
+        "facebook" => "https://www.facebook.com/Nao.Tomori.UwU",
+        "instagram" => "https://www.instagram.com/ryzen_vermillion",
+        "github" => "https://github.com/ShirokamiRyzen",
     ]);
 });
 

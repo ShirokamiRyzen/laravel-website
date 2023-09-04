@@ -30,7 +30,7 @@
                     <button class="buttonmsc" onclick="toggleMusic()" id="btn-playback" data-play="false">
                         <i class="fa fa-play"></i>
                     </button>
-                    <audio id="audio" src="https://cloud.ryzendesu.com/api/name/Orange.mp3?path=/media/Orange.mp3">
+                    <audio id="audio" src="{{ $music_link }}">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -324,7 +324,7 @@
                     Rights Reserved.
                 </span>
                 <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-                    <a href="https://www.facebook.com/Nao.Tomori.UwU"
+                    <a href="{{ $facebook }}"
                         class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
@@ -333,7 +333,7 @@
                         </svg>
                         <span class="sr-only">Facebook page</span>
                     </a>
-                    <a href="https://www.instagram.com/ryzen_vermillion"
+                    <a href="{{ $instagram }}"
                         class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
@@ -349,7 +349,7 @@
                         </svg>
                         <span class="sr-only">Twitter page</span>
                     </a>-->
-                    <a href="https://github.com/ShirokamiRyzen"
+                    <a href="{{ $github }}"
                         class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
