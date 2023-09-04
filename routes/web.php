@@ -18,7 +18,7 @@ Route::get('/', function () {
         "title" => "Index",
 
         //music link variable
-        "music_link" => "https://cloud.ryzendesu.com/api/name/Orange.mp3?path=/media/Orange.mp3"
+        "music_link" => "https://cloud.ryzendesu.com/api/raw/?path=/Media/music/7!!-Orange_(Instrumental).mp3"
     ]);
 });
 
