@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
     {
         View::composer('*', function ($view) {
             $view->with([
-                "music_link" => "https://cloud.ryzendesu.com/api/raw/?path=/Media/music/7!!-Orange_(Instrumental).mp3",
+                "music_link" => "https://ryzencdn-1.vercel.app/api/raw/?path=/Media/music/7!!-Orange_(Instrumental).mp3",
                 "email" => "ryzen@ryzendesu.com",
                 "facebook" => "https://www.facebook.com/Nao.Tomori.UwU",
                 "instagram" => "https://www.instagram.com/ryzen_vermillion",
