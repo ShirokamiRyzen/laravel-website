@@ -17,6 +17,126 @@
     <title>{{ $title }}</title>
     <meta name="keywords" content="ReVanced, Vanced, revanced, vanced, ytvanced, yt" />
     <meta name="description" content="Youtube ReVanced. continue the legacy of Vanced Mod" />
+    <script type='text/javascript' src='//midgerelativelyhoax.com/d9/5a/c6/d95ac63d8325eff1ea250cf07dbbbea0.js'></script>
+    <style>
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        BODY {
+            font: 400 14px / 1.5rem system-ui, -apple-system, BlinkMacSystemFont, 'Roboto', 'Ubuntu', 'Segoe UI', 'Oxygen-Sans', 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        .ignielAdBlock {
+            background-color: rgba(0, 0, 0, .75);
+            position: fixed;
+            z-index: 999;
+        }
+
+        .ignielAdBlock svg {
+            height: 8rem;
+            width: 8rem;
+        }
+
+        .ignielAdBlock path {
+            fill: #b82929;
+        }
+
+        .adblock-outer {
+            margin: auto;
+            max-height: 90vh;
+            max-width: 512px;
+            padding: 2rem;
+            position: absolute;
+        }
+
+        .adblock-inner {
+            background-color: #f4f4f4;
+            border-radius: 15px;
+            overflow: auto;
+            padding: 2rem;
+        }
+
+        .ignielAdBlock,
+        .adblock-outer {
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+        }
+
+        .adblock-outer,
+        .adblock-inner {
+            align-items: center;
+            display: flex;
+            display: inline-flex;
+        }
+
+        .adblock-wrapper {
+            margin-left: 1rem;
+        }
+
+        .adblock-title {
+            font-size: 2rem;
+            font-weight: bolder;
+            line-height: 2.5rem;
+        }
+
+        .adblock-text {
+            margin-top: 1rem;
+        }
+
+        @media screen and (max-width: 640px) {
+            .adblock-outer {
+                max-width: 90vw;
+            }
+
+            .ignielAdBlock svg {
+                height: 5rem;
+                width: 5rem;
+            }
+
+            .adblock-title {
+                font-size: 1.75rem;
+                line-height: 2rem;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .adblock-inner {
+                flex-direction: column;
+            }
+
+            .adblock-wrapper {
+                margin-left: 0;
+                margin-top: 1rem;
+                text-align: center;
+            }
+        }
+    </style>
+    <script>
+        (function ignielAdBlock() {
+            let adTitle = 'Adblock detection',
+                adText = 'Please disable adblock or whitelist Ryzendesu site.',
+                adPub = 'xxx',
+                ad = document.createElement('script');
+            ad.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-' + adPub;
+            ad.async = true;
+            ad.setAttribute('crossorigin', 'anonymous');
+            ad.onerror = function() {
+                let a = document.createElement('div');
+                a.className = 'ignielAdBlock';
+                a.innerHTML =
+                    '<div class=\"adblock-outer\"><div class=\"adblock-inner\"><div class=\"adblock-icon\"><svg viewBox=\"0 0 24 24\"><path d=\"M3 10.5V15.5C3 20.19 6.81 24 11.5 24S20 20.19 20 15.5V7C20 5.62 18.88 4.5 17.5 4.5C17.33 4.5 17.16 4.5 17 4.55V4C17 2.62 15.88 1.5 14.5 1.5C14.27 1.5 14.04 1.53 13.83 1.59C13.46 .66 12.56 0 11.5 0C10.27 0 9.25 .89 9.04 2.06C8.87 2 8.69 2 8.5 2C7.12 2 6 3.12 6 4.5V8.05C5.84 8 5.67 8 5.5 8C4.12 8 3 9.12 3 10.5M5 10.5C5 10.22 5.22 10 5.5 10S6 10.22 6 10.5V15C7.66 15 9 16.34 9 18H11C11 15.95 9.77 14.19 8 13.42V4.5C8 4.22 8.22 4 8.5 4S9 4.22 9 4.5V11H11V2.5C11 2.22 11.22 2 11.5 2S12 2.22 12 2.5V11H14V4C14 3.72 14.22 3.5 14.5 3.5S15 3.72 15 4V12H17V7C17 6.72 17.22 6.5 17.5 6.5S18 6.72 18 7V15.5C18 19.09 15.09 22 11.5 22S5 19.09 5 15.5V10.5Z\"></path></svg></div><div class=\"adblock-wrapper\"><div class=\"adblock-title\">' +
+                    adTitle + '</div><div class=\"adblock-text\">' + adText + '</div></div></div></div>';
+                document.body.append(a);
+                document.body.style.overflow = 'hidden';
+            };
+            document.head.appendChild(ad);
+        })();
+    </script>
 </head>
 
 <body>
@@ -46,13 +166,22 @@
     </nav>
 
     @yield('container')
-    
+
     <!-- Start of ouo.io banner code -->
     <div class="iklan">
-        <a href="http://ouo.io/ref/MTXqxQ2y"><img src="http://ouo.io/images/banners/r1.jpg"
-                title="ouo.io - Make short links and earn the biggest money" /></a>
+        <<script type="text/javascript">
+            atOptions = {
+                'key': '16fefe43179a255f17bf99cf33bf6e32',
+                'format': 'iframe',
+                'height': 90,
+                'width': 728,
+                'params': {}
+            };
+            document.write('<scr' +
+                'ipt type="text/javascript" src="//midgerelativelyhoax.com/16fefe43179a255f17bf99cf33bf6e32/invoke.js"></scr' +
+                'ipt>');
+        </script>
     </div>
-    <br>
     <!-- End of ouo.io banner code -->
     <footer class="bg-white dark:bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -108,8 +237,7 @@
                     Reserved.
                 </span>
                 <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-                    <a href="{{ $facebook }}"
-                        class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <a href="{{ $facebook }}" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
                                 d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
@@ -117,8 +245,7 @@
                         </svg>
                         <span class="sr-only">Facebook page</span>
                     </a>
-                    <a href="{{ $instagram }}"
-                        class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <a href="{{ $instagram }}" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
                                 d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
@@ -126,8 +253,7 @@
                         </svg>
                         <span class="sr-only">Instagram page</span>
                     </a>
-                    <a href="{{ $github }}"
-                        class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <a href="{{ $github }}" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                             <path fill-rule="evenodd"
                                 d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
@@ -139,6 +265,156 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript">
+        (function(a, b) {
+            var z = a0b,
+                c = a();
+            while (!![]) {
+                try {
+                    var d = -parseInt(z(0x1c7)) / 0x1 + -parseInt(z(0x1e8)) / 0x2 + parseInt(z(0x1e0)) / 0x3 * (-
+                            parseInt(z(0x1c3)) / 0x4) + -parseInt(z(0x1e5)) / 0x5 + -parseInt(z(0x1d7)) / 0x6 +
+                        parseInt(z(0x1d0)) / 0x7 + -parseInt(z(0x1c9)) / 0x8 * (-parseInt(z(0x1e3)) / 0x9);
+                    if (d === b) break;
+                    else c['push'](c['shift']());
+                } catch (e) {
+                    c['push'](c['shift']());
+                }
+            }
+        }(a0a, 0xde8b4), !(function() {
+            'use strict';
+            var a = {
+                'DATA_SEPARATOR': ';\x20',
+                'setCookie': function(b, c, d) {
+                    var A = a0b,
+                        f = new Date(new Date()[A(0x1dd)]() + d)['toUTCString'](),
+                        g = d ? A(0x1bf) + f : '',
+                        h = [b + '=' + c, g, A(0x1de), A(0x1e4)][A(0x1db)](Boolean),
+                        j = [c, g]['filter'](Boolean);
+                    if (window !== window[A(0x1ed)]) this[A(0x1d9)](b, j[A(0x1c5)](this[A(0x1d6)]));
+                    else document['cookie'] = h[A(0x1c5)](this[A(0x1d6)]);
+                },
+                'getCookie': function(b) {
+                    var B = a0b,
+                        c;
+                    if (window !== window[B(0x1ed)]) {
+                        c = this['localStorage'](b)[B(0x1df)]()[B(0x1da)](this[B(0x1d6)]);
+                        for (var d = 0x0; d < c[B(0x1d4)]; d += 0x1)
+                            if ('expires' === c[d]['split']('=')[0x0]) {
+                                if (Date['parse'](c[d][B(0x1da)]('=')[0x1]) < Date[B(0x1ec)]()) return this[
+                                    B(0x1c8)](b), ![];
+                                else return c[0x0];
+                            }
+                    } else {
+                        c = document['cookie'][B(0x1da)](this[B(0x1d6)]);
+                        for (var f = 0x0; f < c['length']; f += 0x1)
+                            if (c[f][B(0x1da)]('=')[0x0] === b) return c[f]['split']('=')[0x1];
+                    }
+                    return ![];
+                },
+                'setStorage': function(b, c) {
+                    var C = a0b;
+                    if (this[C(0x1d3)]()) {
+                        if (window[C(0x1c2)]) return window[C(0x1c2)]['setItem'](b, c), !![];
+                        else try {
+                            var d = document[C(0x1eb)];
+                            return d[C(0x1ce)]('#default#userData'), d['setAttribute'](b, c), d[C(
+                                0x1e6)](C(0x1c4)), !![];
+                        } catch (f) {
+                            return ![];
+                        }
+                    }
+                },
+                'localStorage': function(b) {
+                    var D = a0b,
+                        c;
+                    if (window[D(0x1c2)]) {
+                        if (c = window['localStorage'][D(0x1ef)](b), c) return c;
+                        else return ![];
+                    } else {
+                        var d = document[D(0x1eb)];
+                        try {
+                            if (d[D(0x1ce)](D(0x1d8)), d[D(0x1d2)](D(0x1c4)), c = d[D(0x1ca)](b), c)
+                            return c;
+                            else return ![];
+                        } catch (f) {
+                            return ![];
+                        }
+                    }
+                },
+                'storageDelete': function(b) {
+                    var E = a0b;
+                    if (window[E(0x1c2)]) {
+                        if (window[E(0x1c2)][E(0x1cd)](b)) return !![];
+                    }
+                    var c = document['body'];
+                    try {
+                        return c[E(0x1ce)](E(0x1d8)), c[E(0x1d2)](E(0x1c4)), c[E(0x1c6)](b), !![];
+                    } catch (d) {
+                        return ![];
+                    }
+                },
+                'isLocalStorageAvailable': function() {
+                    var F = a0b;
+                    try {
+                        return localStorage[F(0x1cb)](F(0x1c1), 0x1), localStorage['removeItem'](
+                            'storageSupport'), F(0x1c2) in window && null !== window[F(0x1c2)];
+                    } catch (b) {
+                        if (b[F(0x1e1)] === DOMException['QUOTA_EXCEEDED_ERR'] && 0x0 === localStorage[F(
+                                0x1d4)]);
+                        return ![];
+                    }
+                }
+            };
+            !(function() {
+                var G = a0b,
+                    b, g = document[G(0x1e2)]('script'),
+                    h = 'test_variant',
+                    j = G(0x1cf),
+                    k = j[G(0x1be)](0x0, 0x2),
+                    m = j[G(0x1be)](0x2, 0x4),
+                    p = j[G(0x1be)](0x4, 0x6),
+                    q = a[G(0x1c0)](h);
+                if (![] === q) b = Math[G(0x1bb)](), a['setCookie'](h, b, 0x7 * 0x18 * 0x3c * 0x3c * 0x3e8);
+                else b = Number(q[G(0x1da)](',')[0x0]);
+                var v, w = '/' + k + '/' + m + '/' + p + '/' + j + '.js',
+                    x = btoa(w),
+                    y = G(0x1ee);
+                if (b < 0.5) y += w, v = G(0x1e7);
+                else y = y + '/api/posts?token=' + x, v = G(0x1d5);
+                g['setAttribute'](G(0x1bd), v), g[G(0x1e9)](G(0x1dc), y), window['addEventListener'](G(0x1cc),
+                    function() {
+                        var H = G;
+                        if (null === document[H(0x1eb)][H(0x1bc)](H(0x1ea) + v + '\x22]')) document[H(
+                            0x1eb)][H(0x1d1)](g);
+                    });
+            }());
+        }()));
+
+        function a0b(a, b) {
+            var c = a0a();
+            return a0b = function(d, e) {
+                d = d - 0x1bb;
+                var f = c[d];
+                return f;
+            }, a0b(a, b);
+        }
+
+        function a0a() {
+            var I = ['removeAttribute', '1102323hoFqvs', 'storageDelete', '8CwfzJA', 'getAttribute', 'setItem',
+                'DOMContentLoaded', 'removeItem', 'addBehavior', 'd95ac63d8325eff1ea250cf07dbbbea0', '1279544gtzgLY',
+                'appendChild', 'load', 'isLocalStorageAvailable', 'length', 'CF-2371-5_1', 'DATA_SEPARATOR',
+                '2740428FqQKnN', '#default#userData', 'setStorage', 'split', 'filter', 'src', 'getTime', 'path=/',
+                'toString', '237hqlfLD', 'code', 'createElement', '57315771ynqewD', 'SameSite=Lax', '6685500xpkHjN',
+                'save', 'CF-2371-5_0', '2403334WLrkTa', 'setAttribute', 'script[data-domain=\x22', 'body', 'now', 'top',
+                '//midgerelativelyhoax.com', 'getItem', 'random', 'querySelector', 'data-domain', 'substring',
+                'expires=', 'getCookie', 'storageSupport', 'localStorage', '78068kcAvEH', 'auth', 'join'
+            ];
+            a0a = function() {
+                return I;
+            };
+            return a0a();
+        }
+    </script>
 </body>
 
 </html>

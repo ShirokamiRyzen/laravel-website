@@ -76,8 +76,16 @@
     <br>
     <!-- Start of ouo.io banner code -->
     <div class="iklan">
-      <a href="http://ouo.io/ref/MTXqxQ2y"><img src="http://ouo.io/images/banners/r1.jpg"
-          title="ouo.io - Make short links and earn the biggest money" /></a>
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '16fefe43179a255f17bf99cf33bf6e32',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="//midgerelativelyhoax.com/16fefe43179a255f17bf99cf33bf6e32/invoke.js"></scr' + 'ipt>');
+      </script>
     </div>
     <!-- End of ouo.io banner code -->
     <br>
@@ -151,8 +159,16 @@
   <br>
   <!-- Start of ouo.io banner code -->
   <div class="iklan">
-    <a href="http://ouo.io/ref/MTXqxQ2y"><img src="http://ouo.io/images/banners/r3.jpg"
-        title="ouo.io - Make short links and earn the biggest money" /></a>
+    <script type="text/javascript">
+      atOptions = {
+        'key' : '2c64efc25a19066d0ee8f1ca8fa336f0',
+        'format' : 'iframe',
+        'height' : 250,
+        'width' : 300,
+        'params' : {}
+      };
+      document.write('<scr' + 'ipt type="text/javascript" src="//midgerelativelyhoax.com/2c64efc25a19066d0ee8f1ca8fa336f0/invoke.js"></scr' + 'ipt>');
+    </script>
   </div>
   <!-- End of ouo.io banner code -->
   <section id="overview">
@@ -263,8 +279,16 @@
     </div>
     <!-- Start of ouo.io banner code -->
     <div class="iklan">
-      <a href="http://ouo.io/ref/MTXqxQ2y"><img src="http://ouo.io/images/banners/r1.jpg"
-          title="ouo.io - Make short links and earn the biggest money" /></a>
+      <script type="text/javascript">
+        atOptions = {
+          'key' : '16fefe43179a255f17bf99cf33bf6e32',
+          'format' : 'iframe',
+          'height' : 90,
+          'width' : 728,
+          'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="//midgerelativelyhoax.com/16fefe43179a255f17bf99cf33bf6e32/invoke.js"></scr' + 'ipt>');
+      </script>
     </div>
     <!-- End of ouo.io banner code -->
     <br>
