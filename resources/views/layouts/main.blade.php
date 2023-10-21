@@ -17,7 +17,7 @@
     <title>{{ $title }}</title>
     <meta name="keywords" content="ReVanced, Vanced, revanced, vanced, ytvanced, yt" />
     <meta name="description" content="Youtube ReVanced. continue the legacy of Vanced Mod" />
-    <script type='text/javascript' src='//midgerelativelyhoax.com/d9/5a/c6/d95ac63d8325eff1ea250cf07dbbbea0.js'></script>
+    <!--<script type='text/javascript' src='//midgerelativelyhoax.com/d9/5a/c6/d95ac63d8325eff1ea250cf07dbbbea0.js'></script>-->
     <style>
         footer {
             position: fixed;
